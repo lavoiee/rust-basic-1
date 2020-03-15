@@ -1,6 +1,7 @@
 //mod print;
 //mod vars;
-mod type;
+mod types;
+
 fn main() {
     //vars::run();
 
