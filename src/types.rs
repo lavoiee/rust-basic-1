@@ -28,7 +28,20 @@ pub fn run() {
     println!("Max is i64 {}", std::i64::MAX);
     println!("{} default i32, {} default f64, explicit :i64 {}", x, y, z);
 
+    // Get boolean from expression
+    let is_greater: bool = 10 < 5;
+
+    let mut a1: char = 'a';
+    
+    // Unicode for emoticon smiley face
+    let face = '\u{1F600}';
+
+    println!("{} reassigned", a1);
+
+    a1 = 'c';
+    let a2 = 'a';
+    
     // Boolean
     let is_active: bool = true;
-    println!("{:?}", (x, y, z, is_active));
+    println!("{:?}", (x, y, z, is_active, is_greater, a1, a2, face));
 }

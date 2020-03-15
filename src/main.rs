@@ -1,9 +1,12 @@
 //mod print;
 //mod vars;
-mod types;
+//mod types;
+//mod loops;
+mod functions;
 
 fn main() {
     //vars::run();
-
-    types::run();
+    //loops::run();
+    //types::run();
+    functions::run();
 }
