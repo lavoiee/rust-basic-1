@@ -4,11 +4,11 @@
 
 pub fn run() {
     let name = "Eric";
-
-    // Without mut (mutable) you cannot reassign the variable.
+    
+    // Without mut (mutable) you cannot reassign the variable. 
     let mut age = 37;
+    println!("My name is {} and I am {}", name, age);
 
     age = 38;
-
     println!("My name is {} and I am {}", name, age);
 }
